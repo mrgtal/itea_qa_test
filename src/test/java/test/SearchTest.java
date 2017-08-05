@@ -28,7 +28,7 @@ public class SearchTest extends BaseTest {
     @AfterClass
     public void afterClass() {
 
- //       webDriver.quit();
+        webDriver.quit();
     }
 
 
@@ -64,7 +64,7 @@ public class SearchTest extends BaseTest {
 
         Assert.assertTrue(resultPage.isAllElementsContain("ITEA"), "Page2. Not All results have ITEA");
 
-        System.out.println("hz");
+
 
     }
 
