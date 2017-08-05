@@ -53,11 +53,6 @@ public class SearchTest extends BaseTest {
 
         Assert.assertTrue(resultPage.isResultPageLoaded(), "Result page2 is not loaded");
 
-        try {
-            sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
         Assert.assertTrue(resultPage.resultsCount()==expectedCount,
                 "Page2 Results count =" + resultPage.resultsCount() + ". expected " + expectedCount);
